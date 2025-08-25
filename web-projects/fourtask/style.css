@@ -1,0 +1,420 @@
+*{
+margin: 0px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    height: 60px;
+    background-color: #3a5a40;
+    padding: 20px ;
+    color: navajowhite;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    
+     
+} 
+#button{
+    height: 30px;
+    width: 40px;
+    margin-top: 20px;
+     margin-bottom: 30px;
+     border: solid 2px black;
+     border-radius: 30%;
+}
+#logo{
+ background-color: darkolivegreen;
+    margin-right: 100px;
+    margin-top: 20px;
+     margin-bottom: 30px;
+     color: gold;
+     border-radius: 20%;
+}
+a{
+    color: aliceblue;
+    background-color: #3a5a40;
+    text-decoration: none;
+    margin-top: 20px;
+     margin-bottom: 30px;
+     margin-left: 20px;
+   
+}
+    a:hover{
+     color: darkviolet;
+
+    }
+
+  .container{
+    display: flex;
+  }
+ .left{
+    background-color: bisque;
+    height: 700px;
+    width : 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+    
+   h1{
+    text-align: center;
+    
+   }
+
+ .para{
+    font-size: smaller;
+ }
+ .colour{
+    color: #3a5a40;
+ }
+
+  .right{
+    height: 700px;
+    width : 60%;
+    background-color: bisque;
+    position: relative;
+ }
+ .animate{
+   height: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   z-index: 2;
+ }
+
+.falling{
+   border: 1px solid black;
+}
+  
+   .ball1{
+      
+      background-color: #3a5a40;
+      height: 35px;
+      width: 35px;
+      border-radius: 50%;
+      position: absolute;
+      top : 0%;
+     
+      animation-name: ball1;
+       animation-duration: .5s;
+      animation-timing-function:ease-in ;
+      animation-delay: .5s;
+       animation-fill-mode: forwards;
+   }
+   @keyframes ball1{
+      0%{
+         top: 0px;
+      }
+   
+      100%{
+         top: 300px
+        
+      }}
+   .ball2{
+      background-color: #3a5a40;
+      height: 35px;
+      width: 35px;
+      border-radius: 50%;
+      position: absolute;
+      top : 0%;
+      left:40%;
+      animation-name: ball2;
+       animation-duration: .5s;
+      animation-timing-function:ease-in ;
+      animation-delay: 1s;
+       animation-fill-mode: forwards;
+
+   }
+   @keyframes ball2{
+      0%{
+         top: 0px;
+      }
+   
+      100%{
+         top: 300px
+        
+      }
+   }
+   .ball3{
+      
+      background-color: #54905f;
+      height: 35px;
+      width: 35px;
+      border-radius: 50%;
+      position: absolute;
+      top : 0%;
+     
+      animation-name: ball3;
+       animation-duration: .5s;
+      animation-timing-function:ease-in ;
+      animation-delay: 1.5s;
+       animation-fill-mode: forwards;
+   }
+   @keyframes ball3{
+      0%{
+         top: 0px;
+      }
+   
+      100%{
+         top: 265px
+        
+      }
+   }
+   .ball4{
+      
+      background-color: #3a5a40;
+      height: 35px;
+      width: 35px;
+      border-radius: 50%;
+      position: absolute;
+      top : 0%;
+      left: 44%;
+     
+      animation-name: ball4;
+       animation-duration: .5s;
+      animation-timing-function:ease-in ;
+      animation-delay: 2s;
+       animation-fill-mode: forwards;
+   }
+   @keyframes ball4{
+      0%{
+         top: 0px;
+      }
+   
+      100%{
+         top: 300px
+        
+      }
+   }
+   .ball5{
+      
+      background-color: #54905f;
+      height: 35px;
+      width: 35px;
+      border-radius: 50%;
+      position: absolute;
+      top : 0%;
+      left: 44%;
+     
+      animation-name: ball5;
+       animation-duration: .5s;
+      animation-timing-function:ease-in ;
+      animation-delay: 2.5s;
+       animation-fill-mode: forwards;
+   }
+   @keyframes ball5{
+      0%{
+         top: 0px;
+      }
+   
+      100%{
+         top: 265px
+        
+      }
+   }
+   .ball6{
+      
+      background-color: #3a5a40;
+      height: 35px;
+      width: 35px;
+      border-radius: 50%;
+      position: absolute;
+      top : 0%;
+      left:40%;
+     
+      animation-name: ball6;
+       animation-duration: .5s;
+      animation-timing-function:ease-in ;
+      animation-delay: 3s;
+       animation-fill-mode: forwards;
+   }
+   @keyframes ball6{
+      0%{
+         top: 0px;
+      }
+   
+      100%{
+         top: 265px
+        
+      }
+   }
+    .ball7{
+      
+      background-color: #54905f;;
+      height: 35px;
+      width: 35px;
+      border-radius: 50%;
+      position: absolute;
+      top : 0%;
+     
+      animation-name: ball7;
+       animation-duration: .5s;
+      animation-timing-function:ease-in ;
+      animation-delay: 3.5s;
+       animation-fill-mode: forwards;
+   }
+   @keyframes ball7{
+      0%{
+         top: 0px;
+      }
+   
+      100%{
+         top: 230px
+        
+      }
+   }
+   .ball8{
+      
+      background-color: #3a5a40;
+      height: 35px;
+      width: 35px;
+      border-radius: 50%;
+      position: absolute;
+      top : 0%;
+      left:44%;
+     
+      animation-name: ball8;
+       animation-duration: .5s;
+      animation-timing-function:ease-in ;
+      animation-delay: 4s;
+       animation-fill-mode: forwards;
+   }
+   @keyframes ball8{
+      0%{
+         top: 0px;
+      }
+   
+      100%{
+         top: 230px
+        
+      }
+   }
+
+.box{
+   height: 200px;
+   width: 450px;
+   display: flex;
+  
+ 
+}
+.back{
+    height: 120px;
+   width: 181px;
+   border: 3px solid #3a5a40;
+   position: absolute;
+   margin-top: 50px;
+   margin-left: 110px;
+    z-index: 1;
+}
+.rigt{
+   
+   height: 120px;
+   width: 86px;
+   border: 2px solid #3a5a40;
+   margin-top:15% ;
+   margin-left: 25%;
+   transform: skewy(20deg);
+    z-index: 1;
+
+}
+.lef{
+   border: 3px solid #3a5a40;
+   height: 120px;
+   width: 90px;
+   margin-top: 15%;
+   transform: skewy(-20deg);
+    z-index: 1;
+}
+
+
+
+
+
+   .smallq,.smallr,.smalls,.smallt,.smallu,.smallv,.smallw,.smallx{
+       background-color: #3a5a40;
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      position: absolute;
+
+     animation-name: blink;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+   }
+   
+
+      @keyframes blink{
+         0%{
+            background-color: #3a5a40;
+
+         }
+         100%{
+            background-color: #63a76f;
+         }
+      }
+   
+.smallq{
+   top: 40%;
+   left: 5%;
+
+}
+.smallr{
+   top: 40%;
+   left: 60%;
+
+}
+.smalls{
+   top: 60%;
+   left: 70%;
+
+}
+.smallt{
+   top: 50%;
+   left: 20%;
+
+}
+.smallu{
+   top: 70%;
+   left: 55%;
+
+}
+
+.smallv{
+   top: 20%;
+   left: 40%;
+
+}
+.smallw{
+   top: 25%;
+   left: 10%;
+
+}
+.smallx{
+   top: 10%;
+   left: 65%;
+
+}
+
+
+ .end{
+    height: 100px;
+    background-color: #3a5a40;
+    
+ }
+ .det {
+    height: 100px;
+    font-size:large;
+    font-style: oblique;
+    text-align: center;
+    
+    
+}
+
+#copy{
+    color: bisque;
+    font-style: normal;
+     font-size: smaller;
+}
